@@ -1,0 +1,64 @@
+body{
+	background: url('../images/back2.png');
+	background-size: 100% 100%;
+	background-attachment:fixed ;
+	overflow-x: hidden;
+}
+
+.container-nav{
+	background: rgba(255, 255, 255, .3);
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 10px;
+}
+
+.container-fluid:nth-child(2){
+	margin-top: 40px;
+}
+
+.dropdown-menu{
+	background-color: transparent;
+}
+
+form{
+	margin-top: 60px;
+}
+
+form p{
+	display: block;
+	margin: 12px
+}
+
+.group-input{
+	margin-bottom: 20px;
+}
+
+.input-group-text{
+	border-radius: 0px;
+}
+
+i{
+	padding: 5px;
+}
+
+.d-inline-block div{
+	margin-top: 60px;
+	color: white;
+}
+
+input[ type = 'submit']{
+	display: block;
+	margin: 0px auto;
+	width: 50%;
+}
+
+input[ type = 'date']{
+	color: lightgray;
+}
+
+img{
+	width: 62%;
+	margin-left: 20%;
+}
