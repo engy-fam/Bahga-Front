@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  background-image:url("../images/c.png") ;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0,.5);
+  overflow: hidden;
+}
+
+
+h1,
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#btnPreferred {
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+  padding: 12px 30px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  color: rgb(26, 26, 26);
+  border: 1px solid #3399ff;
+
+}
+
+#btnPreferred:hover {
+  background: #65686b;
+  color: #fff;
+
+}
+
+
+.btn-box1 {
+
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: normal;
+  display: inline-block;
+  padding: 16px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 0 10px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  color: rgb(0, 0, 0);
+  border: 2px solid #3399ff;
+  margin-top: 20px;
+}
+
+
+
+.btn-box1:hover {
+  background: #222831;
+  color: #fff;
+}
+
+
+#section{
+  height: 50%;
+}
+#login{
+  margin-top: -50px;
+  margin-left: 110px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3399ff;
+}
+#haveaccount{
+  margin-top: -40px;
+}
+
+.gradient-custom-2 {
+  background: #151414;
+  
+  }
+  
+#form{
+  margin-bottom: -80px;
+}
+#card{
+  margin-top: -30px;
+}

@@ -2709,9 +2709,53 @@ p {
 }
 
 /***************************************************slider & filter on home page*******************************************************/
+/* carousel home page */
 
+#carouselExample1 {
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  position: relative;
+  -webkit-transition: all 0.1s 0.5s;
+  transition: all 0.1s 0.5s;
+  border-radius: 100%;
+  border: 5px solid #3399ff;
+  overflow: hidden;
+}
 
+#carouselExample1 .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
 
+#carouselExample1 .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#carouselExample2 {
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  position: relative;
+  -webkit-transition: all 0.1s 0.5s;
+  transition: all 0.1s 0.5s;
+  border-radius: 100%;
+  border: 5px solid #3399ff;
+  overflow: hidden;
+}
 
+#carouselExample2 .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#carouselExample2 .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
